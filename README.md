@@ -26,3 +26,33 @@ PUCITshell is a simple Unix-like shell written in C that allows users to execute
 
 Feel free to ask if you need further adjustments or additional sections!
 
+
+(2) Version2
+
+
+# PUCITshell
+
+PUCITshell is a simple Unix-like shell implemented in C that supports command execution, input/output redirection, and piping between commands. It is designed to provide a basic command-line interface for users to interact with the operating system.
+
+## Features
+
+- **Command Execution**: Executes commands using the `execvp` function.
+- **Input/Output Redirection**: Supports redirecting standard input and output using `<` and `>` operators.
+- **Piping**: Allows the output of one command to be used as the input for another command using the `|` operator.
+- **Current Directory Prompt**: Displays the current working directory in the shell prompt.
+
+## Requirements
+
+- A C compiler (GCC recommended).
+- A Unix-like operating system (Linux, macOS) for compatibility.
+
+
+
+### Instructions for Customization
+- Make sure to replace `yourusername` in the clone command with your actual GitHub username.
+- You can add specific acknowledgments or references if applicable.
+
+Feel free to adjust any sections to better fit your project! Let me know if you need further modifications or additions.
+
+
+
