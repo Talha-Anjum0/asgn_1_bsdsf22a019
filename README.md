@@ -58,7 +58,7 @@ Feel free to adjust any sections to better fit your project! Let me know if you 
 (3) Version3
 
 
-#Overview
+# Overview
 
 This project is a simple shell implementation in C, designed to mimic the basic functionality of a Unix-like shell. It allows users to execute commands, handle input and output redirection, use pipes, and run background processes. The shell runs in an interactive loop, accepting user input and executing commands with custom features.
 
