@@ -54,4 +54,27 @@ PUCITshell is a simple Unix-like shell implemented in C that supports command ex
 
 Feel free to adjust any sections to better fit your project! Let me know if you need further modifications or additions.
 
+(3) version3
+
+# PUCITshell
+
+A simple shell implementation in C that supports basic command execution, input/output redirection, and background processes.
+
+## Features
+
+- **Custom Prompt**: Displays a prompt with the current working directory in the format: `PUCITshell@<current_directory>$`.
+- **Command Execution**: Executes commands entered by the user.
+- **Input and Output Redirection**: Supports redirection of input (`<`) and output (`>`).
+- **Background Execution**: Allows commands to run in the background using `&` at the end of the command.
+- **Signal Handling**: Handles `SIGCHLD` signals to clean up terminated background processes and avoid zombie processes.
+
+## Getting Started
+
+### Prerequisites
+
+To compile and run the shell, you need:
+
+- A C compiler (e.g., `gcc`).
+- A Unix-based operating system (Linux, macOS, etc.).
+
 
