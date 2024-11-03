@@ -77,4 +77,71 @@ To compile and run the shell, you need:
 - A C compiler (e.g., `gcc`).
 - A Unix-based operating system (Linux, macOS, etc.).
 
+(4) version4
 
+
+# Simple Shell Program
+
+This is a simple shell program implemented in C that supports command history, allowing users to repeat previously issued commands. It uses the `readline` library for enhanced input handling, including command navigation with the up and down arrow keys.
+
+## Features
+
+- **Command History**: Maintains a history of the last 10 commands. Users can repeat commands using the `!number` syntax (e.g., `!-1` for the last command).
+- **Change Directory**: Supports the `cd` command to change the current working directory.
+- **Enhanced Input**: Utilizes the `readline` library for improved user input handling.
+
+## Requirements
+
+- GCC compiler
+- `readline` library
+
+### Install Readline Library
+
+To install the `readline` library on Debian-based systems (like Ubuntu), run:
+
+```bash
+sudo apt-get install libreadline-dev
+
+#### To compile use this
+
+gcc version4.c -o version4 $(pkg-config --cflags --libs readline) -lncurses
+
+#### to run 
+
+./version4
+ 
+
+(5) version5
+
+# Simple Shell Program
+
+This project is a simple shell implemented in C that includes both built-in and external command execution capabilities. The shell supports command history and allows users to repeat previous commands. It utilizes the `readline` library for enhanced command line input.
+
+## Features
+
+- **Built-in Commands**:
+  - `cd <path>`: Changes the current working directory.
+  - `exit`: Terminates the shell session.
+  - `jobs`: Lists currently running background processes.
+  - `kill <pid>`: Terminates a specified background process by its PID.
+  - `help`: Displays a list of available built-in commands and their syntax.
+
+- **Command History**: Maintains a history of the last 10 commands, which can be repeated using `!number`.
+
+- **Enhanced Input Handling**: Uses the `readline` library for command line editing, including the ability to navigate command history with arrow keys.
+
+## Requirements
+
+- **GCC Compiler**: Ensure you have `gcc` installed to compile the program.
+- **Readline Library**: The program requires the `readline` library. Install it using:
+
+  ```bash
+  sudo apt-get install libreadline-dev
+
+### to compile
+
+gcc version4.c -o version4 -lreadline -lncurses
+
+#### to run
+
+./version5
